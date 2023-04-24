@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Automated Software testing",
+  "main": "index.js",
+  "scripts": {
+    "test:smoke": "playwright test --config=smoke.config.ts --headed"
+  },
+  "author": "Ihor Dzhemesiuk",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.32.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
